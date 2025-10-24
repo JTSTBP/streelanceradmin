@@ -1,0 +1,75 @@
+/* Background */
+.admin-login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #3b0058);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+/* Card */
+.admin-login-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.admin-login-card h2 {
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Form */
+.admin-login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-login-card input {
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+}
+
+.admin-login-card input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+.admin-login-card button {
+  background-color: #7c3aed;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.admin-login-card button:hover {
+  background-color: #5b21b6;
+}
+
+/* Note */
+.admin-note {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ccc;
+}
